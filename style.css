@@ -1,0 +1,110 @@
+*{
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+ body{
+    background-color: #222;
+    color:#eee;
+ }
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+ }
+
+ #btn1{
+    padding: 20px 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+ }
+
+ .title{
+    margin:60px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 10px solid #eee;
+    padding-bottom: 120px;
+    position: relative;
+    
+ }
+
+ .title h1{
+    font-size: 3rem;
+ }
+
+ .number{
+    position: absolute;
+    top:80%;
+    background-color: #eee;
+    color: #222;
+    padding: 30px;
+    font-size: 4rem;
+ }
+
+ .left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+ }
+
+ .right{
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+ .p1{
+    padding-bottom: 20px;
+ }
+
+ .guess{
+    width:15rem;
+    border: 4px solid #eee;
+    background: none;
+    height:90px;
+    font-size: 3rem;
+ }
+
+ #btn{
+    
+    padding:20px;
+    font-size: 1.2rem;
+    text-align: center;
+    width:200px;
+    height: 60px;
+    cursor: pointer;
+ }
+
+ .right p{
+    font-size: 1.5rem;
+ }
+
+ main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+ }
+
+ input[type=number]{
+    text-align: center;
+    color: #eee;
+ }
+
+
+
+
+
+
+
+
+
+ @media screen and (min-width:780px){
+    .number{
+        top:60%;
+    }
+ }
